@@ -1,5 +1,4 @@
 
-
 :root{
     --clr-1: #6943FF;
     --clr-2: #B295FF;
@@ -53,6 +52,7 @@ header input{
     width: 8rem;
     text-align: inherit;
     font-size: 4rem;
+    font-weight: 800;
     background: var(--clr-bg-2);
     color: inherit;
     border: 1px solid rgba(255, 255, 255, 0.479);
