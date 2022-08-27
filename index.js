@@ -21,6 +21,7 @@ let units = document.querySelectorAll(".units");
 let modeSwitch = document.getElementById("mode-switch");
 const body = document.querySelector("body");
 const main = document.querySelectorAll("main > *");
+const footer = document.querySelector("footer");
 
 
  
@@ -37,7 +38,9 @@ btn.addEventListener("click", ()=>{
 function converter (item1, item2, cal){
     
     let inputValue = input.value; 
-    
+    if (inputValue === ""){
+        inputValue = 0;
+    }
     units.forEach((unit) => unit.innerHTML = inputValue);
 
     item1.innerHTML = (cal * inputValue).toFixed(3);
@@ -50,5 +53,5 @@ modeSwitch.addEventListener("click", ()=>{
     body.classList.toggle("dark-mode");
     modeSwitch.classList.toggle("dark-mode");
     main.forEach((div) => div.classList.toggle("dark-mode"))
-   
+    footer.classList.toggle("dark-mode");
 })
