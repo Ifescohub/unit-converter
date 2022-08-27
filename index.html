@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <input type="number" placeholder="20">
+        <button>Covert</button>
+
+        <div id="mode-switch">
+            <img src="moon-outline.svg" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <h2>Length(Meter/Feet)</h2>
+            <p>
+                <span class="units">20</span> meters = <span id="feet">65.616</span> feet |
+                <span class="units">20</span> feets = <span id="meters">6.096</span> meters
+            </p>
+        </div>
+
+        <div>
+            <h2>Volume(Liters/Gallons)</h2>
+            <p>
+                <span class="units">20</span> liters = <span id="gallons">5.284</span> gallons | 
+                <span class="units">20</span> gallons = <span id="liters">75.708</span> liters
+            </p>
+        </div>
+
+        <div>
+            <h2>Mass(Kilograms/Pounds)</h2>
+            <p>
+                <span class="units">20</span> kilos = <span id=pounds>44.092</span> pounds |
+                <span class="units">20</span> pounds = <span id="kilos">9.072</span> kilos
+            </p>
+        </div>
+    </main>
+</body>
+</html>
+
+
+
