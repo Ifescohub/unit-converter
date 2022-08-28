@@ -157,7 +157,7 @@ footer.dark-mode{
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .divider{
         display: block;
         color: transparent;
