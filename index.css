@@ -155,3 +155,12 @@ footer a:hover{
 footer.dark-mode{
     color: var(--clr-7);
 }
+
+
+@media (max-width: 600px) {
+    .divider{
+        display: block;
+        color: transparent;
+        margin-block-start: -1.5rem;
+    }
+}
